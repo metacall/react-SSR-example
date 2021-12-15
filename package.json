@@ -1,5 +1,5 @@
 {
-  "name": "ssrreactexamples",
+  "name": "metacall-react-ssr-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,28 +7,16 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
-    "@babel/register": "^7.16.0",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "babel-install": "^2.1.0",
-    "express": "^4.17.1",
-    "ignore-styles": "^5.0.1",
+    "@babel/register": "^7.16.5",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-dom": "^17.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server/index.js"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-
-
 const Example = () => {
      const [value, setValue] = useState(0);
     const reset = () => {
@@ -41,4 +39,3 @@ const Example = () => {
    }
 
 export default Example;
-
